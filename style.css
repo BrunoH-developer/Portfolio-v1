@@ -230,7 +230,7 @@ main{
     align-items: start;
     color: var(--white);
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 150px;
     font-family: 'Anonymous Pro', monospace;
     font-weight: normal;
     
@@ -312,7 +312,7 @@ main{
     }
 
     #top{
-        margin-top: 100px;
+        margin-top: 34px;
     }
 
     #top h2 {
