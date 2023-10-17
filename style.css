@@ -63,7 +63,7 @@ header nav {
     background: var(--dark-blue);
     height: 9vh;
     position: fixed;
-    width: 70vw;
+    width: 71vw;
     padding-top: 1vh;
     position: fixed;
     z-index: 999;
@@ -415,12 +415,12 @@ main{
 .texts-about{
     padding-right: 190px;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .texts-about strong{
     color: var(--cyan);
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @media (width < 1400px){
@@ -532,6 +532,11 @@ main{
     
 }
 
+/* about end */
+
+
+/* projects start */
+
 @media (width < 270px){
     .about-content > img {
         height: 80vw;
@@ -555,6 +560,10 @@ main{
 
 .div-projects{
    margin: 50px;
+}
+
+.div-projects p{
+    font-weight: 300;
 }
 
 .div-projects h3{
