@@ -315,8 +315,12 @@ main{
     color: var(--white);
 }
 
-.fa-brands:hover{
+#links a:hover{
     color: var(--cyan);
+}
+
+#icons-project a{
+    color: #fff;
 }
 
 @media (width < 999px) {
