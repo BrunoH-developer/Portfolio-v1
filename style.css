@@ -290,7 +290,7 @@ main{
     border-radius: 5px;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
-    margin-top: 50px;
+    margin-right: 30px;
 }
 
 #top button:hover{
@@ -299,6 +299,24 @@ main{
     border-top:solid 2px;
     border-left:solid 2px;
     margin-bottom: -4px;
+}
+
+#links{
+    display: flex;
+    align-items: end;
+    margin-top: 50px;
+}
+
+#links a{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: lighter;
+    color: var(--white);
+}
+
+.fa-brands:hover{
+    color: var(--cyan);
 }
 
 @media (width < 999px) {
@@ -343,9 +361,49 @@ main{
         font-size: 35px;
     }
     .logo {
-        height: 44px;
+        height: 50px;
     }
 }
+
+@media (width < 500px){
+    #links a {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #top button {
+        margin-right: 5px;
+    }
+}
+
+@media (width < 320px){
+    #links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links button{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+
+}
+
+@media (width < 181px){
+    #links a {
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #top button {
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 15px;
+    }
+}
+
 
 @media (width < 420px){
     #top h2,  #top h1{
@@ -481,7 +539,7 @@ main{
         
     }
     #about {
-        margin-top: 100px;
+        margin-top: 140px;
     }
 }
 
@@ -655,6 +713,10 @@ main{
 }
 
 @media (width < 999px){
+
+    #container-projects{
+        margin-top: 40px;
+    }
     .container-divProjects {
         flex-direction: column;
     }
@@ -670,11 +732,13 @@ main{
     .one{
         margin-left: 0px;
         margin-right: 0px;
+        margin: 15px;
 
     }
     .two{
         margin-left: 0px;
         margin-right: 0px;
+        margin: 15px;
     }
 
     .div-projects h1 {
@@ -712,7 +776,7 @@ main{
 
 @media (width < 600px){
   #projects {
-    margin-top: 20px;
+    margin-top: 70px;
 }  
 }
 
@@ -722,7 +786,7 @@ main{
         height: 220px;
     }
     .container-divProjects {
-        margin-top: 35px;
+        margin-top: 40px;
     }
 }
 
@@ -775,8 +839,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
-    margin-bottom: 300px;
+    margin-top: 110px;
+    margin-bottom: 100px;
 }
 
 #container-contact{
@@ -789,7 +853,7 @@ main{
 #container-contact h2{
     font-family: 'Anonymous Pro', monospace;
     font-weight: 300;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 40px;
     width: 40vw;
     text-align: center;
@@ -863,10 +927,32 @@ main{
 
 }
 
-
-
-
 /* end contact */
 
+/* start footer */
+
+footer{
+    width: 70vw;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer strong{
+    color: var(--cyan);
+}
+
+@media (width < 420px){
+    footer{
+        width: 95vw;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
+
+
+
+/* end footer */
 
 
