@@ -221,6 +221,24 @@ main{
         color: var(--cyan);
     }
 
+    @media (width < 750px){
+        .titulos {
+            font-size: 25px;
+        }
+    }
+
+    @media (width < 350px){
+        .titulos {
+            font-size: 22px;
+        }
+    }
+
+    @media (width < 250px){
+        .titulos {
+            font-size: 20px;
+        }
+    }
+
 /* Classrom end */
 
 
@@ -555,7 +573,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 45px;
 }
 
 .div-projects{
@@ -664,10 +682,34 @@ main{
     }
 
     .div-projects img {
+        width: 450px;
+        height: 290px;
+    }
+}
+
+@media (width < 680px){
+    .div-projects img {
+        width: 60vw;
+        height: 260px;
+    }
+}
+
+@media (width < 580px){
+    .div-projects img {
+        width: 60vw;
+        height: 220px;
+    }
+}
+
+@media (width < 490px){
+    .div-projects img {
         width: 70vw;
         height: 220px;
     }
 }
+
+
+
 @media (width < 600px){
   #projects {
     margin-top: 20px;
@@ -721,11 +763,110 @@ main{
 
 @media (width < 350px){
     .div-projects img {
-        height: 120px;
+        height: 160px;
     }
 }
 
+/* end projects */
 
+/* start contact */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+#container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#container-contact h2{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 300;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 40vw;
+    text-align: center;
+}
+
+#container-contact button{
+    border: solid 1px var(--cyan);
+    color: var(--cyan);
+    background-color: #0A192F;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (width < 999px){
+    #container-contact h2{
+        width: 70vw;
+        
+    }
+}
+
+@media (width < 600px){
+    #container-contact h2{
+        width: 69vw;
+        
+    }
+
+    #container-contact h2{
+        font-size: 20px;
+    }
+
+    #container-contact button {
+        font-size: 16px;
+    }
+
+   
+}
+
+@media (width < 420px){
+    #container-contact h2 {
+        width: 90vw;
+        font-size: 19px;
+    }
+
+    #container-contact button {
+        font-size: 14px;
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 15px;
+    }
+
+}
+
+@media (width < 240px){
+    #container-contact h2 {
+        width: 95vw;
+        font-size: 17px;
+    }
+
+    #container-contact button {
+        font-size: 14px;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+/* end contact */
 
 
 
