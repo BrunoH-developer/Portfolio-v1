@@ -123,11 +123,22 @@ header a {
 #a-header{
     display: none;
 }
+@media (width <  1200px){
+    .nav-list a {
+        font-size: 16px;
+    }
+    .nav-list li {
 
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+}
 
 @media (width <  999px) {
     
-
+    .a-lan p{
+        font-size: 19px;
+    }
 
     body {
       overflow-x: hidden;
@@ -189,6 +200,11 @@ header a {
 .nav-list {
     width: 90vw;
 }
+
+.a-lan p{
+    font-size: 15px;
+}
+
 }
 @media (width < 500px){
     .nav-list {
@@ -196,6 +212,32 @@ header a {
     }
 
 }
+
+@media (width < 420px){
+    .nav-list {
+        margin-right: 50px;
+    }
+
+}
+
+@media (width < 230px){
+    .nav-list {
+        margin-right: 65px;
+    }
+
+    #container-lan div {
+        display: flex;
+        align-items: center;
+        padding: 9px;
+    }
+
+    .a-lan p {
+        font-size: 13px;
+    }
+
+}
+
+
 
 body{
     display: flex;
@@ -299,7 +341,8 @@ main{
     border-top:solid 2px;
     border-left:solid 2px;
     margin-bottom: -4px;
-    margin-left: -3px;
+    margin-top: 1px;
+    margin-right: 27px;
 }
 
 #links{
@@ -324,6 +367,58 @@ main{
 #icons-project a{
     color: #fff;
 }
+
+#language img{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+#language img:hover{
+    opacity: 0.9;
+}
+
+
+
+#language{
+
+    cursor: pointer;
+}
+
+#container-lan{
+    position: fixed;
+    background-color: #212F43;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#container-lan div{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+   
+    
+}
+
+#container-lan div:hover{
+    opacity: 0.8;
+}
+
+.lan-img{
+    margin-right: 10px;
+}
+
+#lan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 @media (width < 999px) {
     #top h1, #top h2 {
@@ -392,7 +487,7 @@ main{
         margin-right: 5px;
     }
     #links{
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
 
@@ -644,7 +739,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 90px;
 }
 
 .container-divProjects{
@@ -891,6 +986,16 @@ main{
     font-family: 'Roboto Mono', monospace;
 }
 
+#container-contact button:hover{
+    border-bottom:solid 5px;
+    border-right:solid 5px;
+    border-top:solid 2px;
+    border-left:solid 2px;
+    margin-bottom: -4px;
+    margin-left: -3px;
+    margin-top: 1px;
+}
+
 @media (width < 999px){
     #container-contact h2{
         width: 70vw;
@@ -960,6 +1065,8 @@ footer{
 footer strong{
     color: var(--cyan);
 }
+
+
 
 @media (width < 420px){
     footer{
