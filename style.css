@@ -120,6 +120,11 @@ header a {
     transition: 0.3s;    
 }
 
+.p-lan{
+    font-size: 15px;
+}
+
+
 #a-header{
     display: none;
 }
@@ -369,8 +374,8 @@ main{
 }
 
 #language img{
-    height: 30px;
-    width: 35px;
+    height: 25px;
+    width: 28px;
     border-radius: 50%;
     padding: 2px;
     margin-right: 10px;
@@ -379,7 +384,6 @@ main{
 #language img:hover{
     opacity: 0.9;
 }
-
 
 
 #language{
