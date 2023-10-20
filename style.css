@@ -385,6 +385,10 @@ main{
     opacity: 0.9;
 }
 
+.p-lan:hover{
+    color: var(--cyan);
+}
+
 
 #language{
 
