@@ -1,4 +1,4 @@
-lan()
+lan() //function started to resolve lang menu bug
 function lan(){
     let div = document.getElementById("container-lan");
     
