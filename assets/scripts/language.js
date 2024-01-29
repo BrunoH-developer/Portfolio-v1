@@ -1,3 +1,4 @@
+lan()
 function lan(){
     let div = document.getElementById("container-lan");
     
